@@ -1,0 +1,141 @@
+body{
+	background: #2C2D32;
+}
+
+/***********************************************************************************************/
+/* Header Area  */
+/***********************************************************************************************/
+.header {
+	background: url(../img/bg.png);
+	padding: 30px;
+	border-radius: 5px;
+	margin-bottom: 100px;
+	text-shadow: 0px -2px 2px rgba(5, 5, 5, 0.5);
+}
+
+.header h1{
+	text-shadow: 1px 1px 2px rgba(191, 191, 191, 0.5);
+	color: #ffffff;
+	text-align: center;
+}
+
+/***********************************************************************************************/
+/* Form Style */
+/***********************************************************************************************/
+	
+#form label{
+	display: block;
+	color: #E1EDED;
+	font-weight: bold;
+}
+
+/*******************************************************/
+/* Placeholder Color  */
+/*******************************************************/
+::-webkit-input-placeholder {
+   color: #423F3F ;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #423F3F ;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #423F3F ;  
+}
+
+:-ms-input-placeholder {  
+   color: #423F3F ;
+}
+
+/*********************************************************/
+/* Input Style  */
+/*********************************************************/
+input[type="text"],
+input[type="name"],
+input[type="phone"],
+input[type="email"],
+textarea{
+
+	border:1px solid #777777;
+	padding: 8px;
+	border-radius: 2px;
+	min-width: 280px;
+	color: #6D7773;
+	font-size: 16px;
+	background-color: #1B1C20;
+	
+}
+
+input[type="text"]:hover,:focus,
+input[type="name"]:hover,:focus,
+input[type="phone"]:hover,:focus,
+input[type="email"]:hover,:focus,
+textarea:hover:focus{
+	border-radius: 2px;
+	border:1px solid #578FE3;
+	background: #313437;
+	
+}
+
+/***********************************************************************************************/
+/* Button & Reset */
+/***********************************************************************************************/
+
+input[type="submit"],
+input[type="reset"],
+button{
+	font-size: 16px;
+	font-weight: 300;
+	border:none;
+	padding: 10px 30px;
+	color:#ffffff;
+	border-radius: 2px;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, .2);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #8EB632; /* layer fill content */
+	-moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+	-webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover{
+	font-size: 16px;
+	font-weight: 300;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #6A8825; /* layer fill content */
+	-moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+	-webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); /* inner shadow */
+}
+
+
+/***********************************************************************************************/
+/* Footer Area  */
+/***********************************************************************************************/
+
+.footer{
+	background: #454545;
+	border-radius: 5px;
+	margin-top: 100px;
+}
+
+.footer p{
+	color:#ffffff;
+	text-align: center;
+	padding: 20px;
+	text-shadow: 1px 1px 2px rgba(5, 5, 5, 0.5);
+}
